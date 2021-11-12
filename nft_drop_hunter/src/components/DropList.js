@@ -120,9 +120,9 @@ const DropList = () => {
         return (
           <div>
             <img
-              alt={"drop image"}
+              alt={"drop logo"}
               src={item.imageUri}
-              style={{ width: 80, height: 80 }}
+              style={{ width: 160, height: 160 }}
             />
             <p>name: {item.name}</p>
             <p>description: {item.description}</p>
